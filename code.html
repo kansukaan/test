@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gallery &amp; Contact | Bella Vista Cafe Bistro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec9213",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#221a10",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-stone-800 dark:text-stone-200 antialiased">
+<!-- Navigation -->
+<nav class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-icons text-primary text-3xl">restaurant</span>
+<span class="text-xl font-bold tracking-tight text-stone-900 dark:text-white">Bella Vista <span class="text-primary">Bistro</span></span>
+</div>
+<div class="hidden md:flex items-center gap-8 font-medium">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<a class="hover:text-primary transition-colors" href="#">Menu</a>
+<a class="text-primary border-b-2 border-primary" href="#">Gallery</a>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+<a class="bg-primary text-white px-6 py-2.5 rounded-full hover:bg-opacity-90 transition-all shadow-md shadow-primary/20" href="#">Book a Table</a>
+</div>
+</div>
+</nav>
+<!-- Header Section -->
+<header class="py-16 px-6 text-center max-w-4xl mx-auto">
+<h1 class="text-4xl md:text-5xl font-bold text-stone-900 dark:text-white mb-4 italic">A Glimpse of Elegance</h1>
+<p class="text-lg text-stone-600 dark:text-stone-400">Step into our sanctuary of warmth. From artisanal brews to intimate evening dining, every corner of Bella Vista is crafted for comfort.</p>
+</header>
+<!-- Masonry Gallery Section -->
+<section class="max-w-7xl mx-auto px-6 mb-24">
+<div class="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+<div class="break-inside-avoid group relative overflow-hidden rounded-xl bg-stone-100 shadow-sm">
+<img alt="Interior" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Cozy interior with velvet seating and warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS_5SSwaQM3mNbVw-d2S6zXg1of8OyefzO1gES2bIt3x03otS_-Ar80Y2Cr8CDBl5ho0-aZRGFspjKCkO772K9SWaAkawmPkzLawVXxq3R5I4ULk1ABbWDzZaNJBFDznNI6rn9C9wqQzrYfhrjhRy0xp7tilZr8jzjdFJqQv1W_j0fbtiS63ScoXyP3WP6slVRU2gSvUhgQ5Li4zztCcGZoq-GzVn_6jAqSmOm73tbyOCN0J_HU9279BhgZop4O_blIVkJvNajEKQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<p class="text-white font-medium">Main Dining Area</p>
+</div>
+</div>
+<div class="break-inside-avoid group relative overflow-hidden rounded-xl bg-stone-100 shadow-sm">
+<img alt="Outdoor Seating" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Outdoor terrace seating with plants and sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-t8b8R4H3t7MtdXZDoVfB2dA1LGM1Z7xyjmDt5rEsoC_aNQWqsn2cf9fXPQrSXavACjdT9L_Uz0mrHb3_Rh3DWYb54qkQdo4sA5s1EmV7w9XhiM6l3OSjvyUuw43xvY2NUjNUgmVGg7tVdUN4jyb-C8pIfFGi9PiyBfU_1zmWdCCc-vXkXorzCOzk6wO04gTDgAadya_bk34Oqxmq-5KRUX8yewu4N2be1cJbZN7px3D3kk1JJ2xpuaO8eb6_J41y26vlqgwgIMU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<p class="text-white font-medium">Sun-drenched Terrace</p>
+</div>
+</div>
+<div class="break-inside-avoid group relative overflow-hidden rounded-xl bg-stone-100 shadow-sm">
+<img alt="Coffee Details" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Artisanal coffee cup on a wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt2THAxGMwbB7sznLlVqdp29KGOrPoB07btf0jNo-yd10F5kQD5QBgtH0dXe1iu7AOT9XWuBRbgnNsFzxgnU5ylOa_1zLUejNQRomdL26HmZhq_RgMJ4_p7XTuQdw7pT1zh0EJ9RMg6be16O5iankQQ0L7yB4xXCEb-WM9GqjcOYaaLTbwUpsEGP_OgVi3zEs6LFZS2tWAGl0AM95U7bMnyiaP8tZkUn1MYIKLk1xkYlcMJS3NIBx0JhGKuLeyOR5oiYGNLrULSOk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<p class="text-white font-medium">Craft Coffee Mornings</p>
+</div>
+</div>
+<div class="break-inside-avoid group relative overflow-hidden rounded-xl bg-stone-100 shadow-sm">
+<img alt="Bar Area" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Warmly lit restaurant bar at night" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjNZqhCBLGYwqY0Br_LGSjLv60ATiMuTC8C7D8cJb77rKtDHD_cXc_6UlRw3jhAUIn10WsVTFiivZn3dW4qMKI5CuKTcHbjtwlmqyLGCDSAHnxjXYlqyqtmoi_KFfWKlJ7W_DrRhXt7sPNW6wbVNcKixhXuGmpJfQFOyrN7F10mDsm1JMTnbqz3FuFpJccLAK5CQTKZoXgmncQFQgmNe2h9M7VyIvlylz7shOjhcuM8vZJ_KLq3sPByBf3Cif7KMawevCnfmY7vsg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<p class="text-white font-medium">Evening Ambience</p>
+</div>
+</div>
+<div class="break-inside-avoid group relative overflow-hidden rounded-xl bg-stone-100 shadow-sm">
+<img alt="Cocktail" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close up of a signature bistro cocktail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-ZE0J16FEpP4qgjmLk4Ra6WlHUmI5cwSMyyeXsAHEW230rHtqoSWrJU5AzllRtIveQy00QGi9voRhBZH8qDia9Ecz_v3f_fIOcK1JtbveJ-ZS3c547lTPXDURwnboIynogROvQ5XrcJNRY1VzhU1yKQYDhMQMhsU4ehvM04L0Z4wwrh_zDtcXyTVDKNHDca-zbrrDPYRv6PqCas_IUcx1F9On7ipjcwp7Y_TUQbCmxCT4JvReG29MO6X_RNSC9RlqE8_2eIfhG_I"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<p class="text-white font-medium">Signature Cocktails</p>
+</div>
+</div>
+<div class="break-inside-avoid group relative overflow-hidden rounded-xl bg-stone-100 shadow-sm">
+<img alt="Kitchen Prep" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Chef preparing a modern plating in kitchen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGZuo0r4kW2ZAc68btPBjrwQ3nAm0H16EAV2Ktl3SWljrg-XmDqbOPD0mWJiuK4ONG__xVkGOKp6nwozFqpShVr5laFh9qXEZ6woS4q4_ci4tB8n4hrH9N3PPe0cw9aN4W6abKSHnpClfHB7GW2AQFr2Kv-Dc1hR6W943COVZ16OC1L_RB0Rimmb-Zxux-DnRz3m4yYMSe0AjnvgEqC9QYW5mraX2dZyt_a9FwJ85aD1iIjVcXFwjGES0esBLoMoiHZ5sU4QIHIaM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<p class="text-white font-medium">Culinary Artistry</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="bg-primary/5 dark:bg-primary/10 py-24 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-2 gap-16 items-start">
+<!-- Contact Form Column -->
+<div class="bg-white dark:bg-stone-900 p-8 md:p-12 rounded-2xl shadow-xl shadow-stone-200/50 dark:shadow-none">
+<h2 class="text-3xl font-bold text-stone-900 dark:text-white mb-2">Get in Touch</h2>
+<p class="text-stone-600 dark:text-stone-400 mb-8">Have a question or planning a private event? We'd love to hear from you.</p>
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-semibold text-stone-700 dark:text-stone-300 ml-1">Full Name</label>
+<input class="w-full px-4 py-3 bg-stone-50 dark:bg-stone-800 border-stone-200 dark:border-stone-700 rounded-lg focus:ring-primary focus:border-primary outline-none transition-all" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-stone-700 dark:text-stone-300 ml-1">Email Address</label>
+<input class="w-full px-4 py-3 bg-stone-50 dark:bg-stone-800 border-stone-200 dark:border-stone-700 rounded-lg focus:ring-primary focus:border-primary outline-none transition-all" placeholder="john@example.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold text-stone-700 dark:text-stone-300 ml-1">Message</label>
+<textarea class="w-full px-4 py-3 bg-stone-50 dark:bg-stone-800 border-stone-200 dark:border-stone-700 rounded-lg focus:ring-primary focus:border-primary outline-none transition-all resize-none" placeholder="Tell us how we can help..." rows="5"></textarea>
+</div>
+<button class="w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-opacity-90 transition-all shadow-lg shadow-primary/30 flex items-center justify-center gap-2" type="submit">
+<span class="material-icons text-sm">send</span>
+                            Send Message
+                        </button>
+</form>
+</div>
+<!-- Info & Map Column -->
+<div class="space-y-12 lg:pt-8">
+<div class="grid sm:grid-cols-2 gap-10">
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-icons text-primary bg-primary/20 p-2 rounded-full">location_on</span>
+<h3 class="font-bold text-xl text-stone-900 dark:text-white">Visit Us</h3>
+</div>
+<p class="text-stone-600 dark:text-stone-400 leading-relaxed">
+                                123 Vista Lane, Riverside District<br/>
+                                Downtown, Cityville 54321
+                            </p>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-icons text-primary bg-primary/20 p-2 rounded-full">access_time</span>
+<h3 class="font-bold text-xl text-stone-900 dark:text-white">Hours</h3>
+</div>
+<p class="text-stone-600 dark:text-stone-400 leading-relaxed">
+                                Mon - Fri: 8:00 AM - 10:00 PM<br/>
+                                Sat - Sun: 9:00 AM - 11:00 PM
+                            </p>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-icons text-primary bg-primary/20 p-2 rounded-full">phone</span>
+<h3 class="font-bold text-xl text-stone-900 dark:text-white">Call Us</h3>
+</div>
+<a class="text-stone-600 dark:text-stone-400 hover:text-primary transition-colors" href="tel:5551234567">(555) 123-4567</a>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-icons text-primary bg-primary/20 p-2 rounded-full">mail</span>
+<h3 class="font-bold text-xl text-stone-900 dark:text-white">Email</h3>
+</div>
+<a class="text-stone-600 dark:text-stone-400 hover:text-primary transition-colors" href="mailto:hello@bellavistacafe.com">hello@bellavistacafe.com</a>
+</div>
+</div>
+<!-- Map Integration -->
+<div class="rounded-2xl overflow-hidden shadow-lg border border-primary/10 bg-stone-200 aspect-video relative">
+<div class="absolute inset-0 bg-stone-300 animate-pulse"></div>
+<div class="absolute inset-0 flex items-center justify-center bg-cover bg-center" data-alt="Minimalist map view showing the bistro location in Riverside District" data-location="Riverside District" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDNoSufiUuypdCETUeQF6NtapMe8_Jfg1T5QwxHVw2NXQ_C3r4xJLs3GofsLrSNa_Shgr33z0WYRIUJPykZ--0SXzrYOoJ__o-vPXPvQx2m5vkaMXzU-fft9lpBUwmtyVVfrlZ3ykMPj2Vq2FajG76VCl2MxPsR6L0YNGDb6YwWRy_S9gjAYtA1XmrOC22Mal4t_uBM2-Z2h9B0U2IsO1rCwJ0C1P-J2t1DG_Hr7o2Bthw1ulS9AMF-D34qXk8M_SwL3F134s_a47I')">
+<div class="z-10 bg-white/90 dark:bg-stone-900/90 backdrop-blur-sm px-6 py-4 rounded-xl shadow-xl border border-primary/20 flex flex-col items-center">
+<span class="material-icons text-primary text-4xl mb-1">location_on</span>
+<p class="font-bold text-stone-900 dark:text-white">Bella Vista Bistro</p>
+<span class="text-xs text-stone-500 uppercase tracking-widest">Riverside District</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-stone-900 text-stone-300 py-16 px-6">
+<div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
+<div class="md:col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-icons text-primary text-2xl">restaurant</span>
+<span class="text-lg font-bold text-white tracking-tight">Bella Vista</span>
+</div>
+<p class="text-sm leading-relaxed mb-6">Redefining the bistro experience with elegance, comfort, and exceptional flavors in every bite.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-primary transition-colors" href="#"><img alt="FB" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOzZ9FkoY0ZW0_2RaVXjXSykUaHHI-6hF5ADx7W8i4SrkAbRYlz89X9LXSAAEiKVDtmT1riQeLHIB8cQNBgtD9otbheUmoHPs0TKJZ8mydoWl_zBNFksOBBe3pLi7600nj-jNmoWlk8mOtR6XA6dVh_xaat65cmL8D6OapDNVuZyEkX_Ul4H4HHQVrtY9yYqZ6yOM8wT5X_RAnRxu8nP5fDqihKb-SrdGZD7zuAkvxFiQwnIh0HdARsPO7ELm2HMv_lmStAG3-wvw"/></a>
+<a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-primary transition-colors" href="#"><img alt="IG" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZSDA_lNzso2JUellNvg5oxGqR-fguZAwMi7iiLzc4S3z1Ak-uT9ISn7WAPCqgjEvDPBKBODs0pf10MEP-evMoRnPrZaLx8MtTmiQSLF-x-PbugiBrhbaiXd_HB8THbH3_fiCTwVw6-Qa0dEtHbeITltJhMFlPUW3YN3IULyfk1X2cMTsRMXs-T9J2meXX7Q5P9_sexXcD41poy_ZCAsy5kf6rajWOGKAV_eK--lRkPihl5xJN5eZpjf_R-0ZwkSq7VM2jeZ6K97w"/></a>
+<a class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-primary transition-colors" href="#"><img alt="TW" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaXQue5TKTSlcuADGA8IxBflnU-g0VH7Fva0ulXBuAmlQ2R0grj9xYORNS1EfY5CFHb8rvkuedF-xbYaIFUesAWee-HtDV33n4Ly6yQ3PmlZlT6UlvVN8H-xhD0VawizjmdpvdB-8L6mP_B4alBhUdLpVviOCA5GGvD4_Xgm08HTY79XVtl2zlmmm-APqqUnbc-6zsia41Ta2JnksaR598tpuGGsEj3gb9HcxlaJA9GH6AvUEU9IVT7FF9q2jQk8T1VKauXvq19Tg"/></a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Our Story</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Special Offers</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Private Events</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Gift Cards</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Support</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Reservation FAQ</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Delivery Info</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Newsletter</h4>
+<p class="text-sm mb-4">Join our community for exclusive recipes and event invites.</p>
+<div class="relative">
+<input class="w-full bg-stone-800 border-none rounded-lg px-4 py-3 text-sm focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="absolute right-2 top-2 text-primary font-bold px-2 py-1">Join</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto pt-12 mt-12 border-t border-stone-800 text-center text-xs text-stone-500">
+            © 2024 Bella Vista Cafe Bistro. All rights reserved. Designed for elegance.
+        </div>
+</footer>
+</body></html>
